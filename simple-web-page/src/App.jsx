@@ -7,6 +7,7 @@ function App() {
     <>
       <Navigation_Bar />
       <ShowCase />
+      <ShowCase />
     </>
   );
 }
