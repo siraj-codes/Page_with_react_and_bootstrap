@@ -1,5 +1,6 @@
 import Navigation_Bar from "./components/Navigation_Bar";
 import ShowCase from "./components/ShowCase";
+import NewsLetter from "./components/NewsLetter";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navigation_Bar />
       <ShowCase />
+      <NewsLetter />
     </>
   );
 }
