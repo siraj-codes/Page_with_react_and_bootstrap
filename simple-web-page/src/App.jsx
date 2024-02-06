@@ -5,6 +5,7 @@ import CardSection from "./components/CardsSection";
 import LearnA from "./components/LearnA";
 import LearnB from "./components/LearnB";
 import Questions from "./components/Questions";
+import Instructors from "./components/Instructors";
 import "./App.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <LearnA />
       <LearnB />
       <Questions />
+      <Instructors />
     </>
   );
 }
