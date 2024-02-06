@@ -1,7 +1,7 @@
 let Navigation_Bar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
         <div className="container">
           <a href="#" className="navbar-brand">
             {" "}
@@ -18,7 +18,7 @@ let Navigation_Bar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a href="#Learn" className="nav-link">
+                <a href="#learn" className="nav-link">
                   What You'll learn
                 </a>
               </li>
