@@ -6,6 +6,8 @@ import LearnA from "./components/LearnA";
 import LearnB from "./components/LearnB";
 import Questions from "./components/Questions";
 import Instructors from "./components/Instructors";
+import Contact_US from "./components/Contact_US";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <LearnB />
       <Questions />
       <Instructors />
+      <Contact_US />
+      <Footer />
     </>
   );
 }
